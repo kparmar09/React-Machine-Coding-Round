@@ -11,7 +11,6 @@ function DragAndDrop() {
           outerColor="#D2E3C8"
           textColor="#4F6F52"
           width="80vw"
-          height="78vh"
           padding="2vw"
         >
           <div className="">

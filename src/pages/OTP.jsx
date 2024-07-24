@@ -26,18 +26,21 @@ function OTP() {
     <>
       <div>
         <Container
-          width="600px"
-          height="400px"
+          width="35vw"
           innerColor="white"
-          outerColor="#1170CC"
+          outerColor="#3F72AF"
+          padding="2vw"
         >
           <div className="flex flex-col items-center">
-            <h1 className=" font-bold text-3xl mt-5">
-              Mobile Phone Verification
-            </h1>
-            <p className="font-extralight text-lg mt-1">
-              Enter the 4-digit verification code that was sent to your mobile
-              phone
+            <h1 className=" font-bold text-3xl">Mobile Phone Verification</h1>
+            <p
+              className="font-semibold text-lg mt-1"
+              style={{ color: "#BFBFBF" }}
+            >
+              Enter the 4-digit verification code that was sent to your
+            </p>
+            <p className="font-semibold text-lg" style={{ color: "#BFBFBF" }}>
+              mobile phone
             </p>
             <div className="mt-8">
               <OTPInput
@@ -48,8 +51,8 @@ function OTP() {
               />
             </div>
             <Button
-              width="450px"
-              height="40px"
+              width="417px"
+              height="64px"
               color="#00215E"
               btnClickFn={validateOTP}
               submitStatus={submitStatus}

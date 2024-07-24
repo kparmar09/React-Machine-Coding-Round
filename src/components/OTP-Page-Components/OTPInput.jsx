@@ -41,7 +41,7 @@ function OTPInput({
     }
   };
 
-  let borderColor = "#6EACDA";
+  let borderColor = "#DBE2EF";
 
   if (submitStatus && !correctStatus) {
     borderColor = "#973131";
@@ -61,12 +61,14 @@ function OTPInput({
             onKeyDown={(e) => handleKeyDown(index, e)}
             type="digit"
             autoComplete="off"
-            className="h-28 w-24 rounded-md mr-2 ml-2"
+            className="rounded-lg mr-2 ml-2"
             style={{
-              backgroundColor: "#6EACDA",
+              backgroundColor: "#DBE2EF",
               textAlign: "center",
               fontSize: "40px",
               border: `3px solid ${borderColor}`,
+              width: "90px",
+              height: "100px",
             }}
           />
         );

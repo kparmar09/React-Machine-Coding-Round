@@ -3,8 +3,9 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
 import OTP from "./pages/OTP.jsx";
-import "./index.css";
 import DragAndDrop from "./pages/DragAndDrop.jsx";
+import PaginateTable from "./pages/PaginateTable.jsx";
+import "./index.css";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "drag-drop",
         element: <DragAndDrop />,
+      },
+      {
+        path: "paginate-table",
+        element: <PaginateTable />,
       },
     ],
   },
