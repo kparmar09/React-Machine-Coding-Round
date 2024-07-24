@@ -4,6 +4,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
 import OTP from "./pages/OTP.jsx";
 import "./index.css";
+import DragAndDrop from "./pages/DragAndDrop.jsx";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
       {
         path: "",
         element: <OTP />,
+      },
+      {
+        path: "drag-drop",
+        element: <DragAndDrop />,
       },
     ],
   },

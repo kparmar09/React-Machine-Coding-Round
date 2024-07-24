@@ -1,43 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
-
-function Container({
-  children,
-  width,
-  height,
-  innerColor,
-  outerColor,
-  textColor,
-  padding,
-}) {
-  return (
-    <>
-      <div
-        className="flex items-center justify-center h-screen relative"
-        style={{ backgroundColor: `${outerColor}` }}
-      >
-        <div className="flex flex-col items-center justify-evenly">
-          <h1
-            className="mb-10 text-6xl font-bold text-slate-100"
-            style={{ color: `${textColor}` }}
-          >
-            Chai aur Code
-          </h1>
-          <div
-            className="rounded-xl"
-            style={{
-              width: `${width}`,
-              height: `${height}`,
-              backgroundColor: `${innerColor}`,
-              padding: `${padding}`,
-            }}
-          >
-            {children}
-          </div>
-        </div>
-        <div className="absolute bottom-0 right-0 m-4">
-          <Link to="https://chaicode.com/">
-            <svg
+ <svg
               width="120"
               height="125"
               viewBox="0 0 144 150"
@@ -71,11 +32,3 @@ function Container({
                 />
               </defs>
             </svg>
-          </Link>
-        </div>
-      </div>
-    </>
-  );
-}
-
-export default Container;
