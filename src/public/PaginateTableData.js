@@ -1,6 +1,7 @@
 const PaginateTableData = [
   {
-    imageUrl: "https://picsum.photos/",
+    id: 1,
+    imageUrl: "https://picsum.photos/120/70?random=1",
     title: "SQL Basics To Advanced Mastery Course",
     startDate: "20 Jul 2024",
     endDate: "28 Jul 2024",
@@ -9,7 +10,8 @@ const PaginateTableData = [
     status: "Published",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 2,
+    imageUrl: "https://picsum.photos/120/70?random=2",
     title: "30 Days Of Javascript Challenge",
     startDate: "13 Jul 2024",
     endDate: "12 Aug 2024",
@@ -18,7 +20,8 @@ const PaginateTableData = [
     status: "Unpublished",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 3,
+    imageUrl: "https://picsum.photos/120/70?random=3",
     title: "Interview Preparation With Javascript 2.0",
     startDate: "02 Aug 2024",
     endDate: "15 Sep 2024",
@@ -27,7 +30,8 @@ const PaginateTableData = [
     status: "Published",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 4,
+    imageUrl: "https://picsum.photos/120/70?random=4",
     title: "Python for Data Science",
     startDate: "01 Aug 2024",
     endDate: "31 Aug 2024",
@@ -36,7 +40,8 @@ const PaginateTableData = [
     status: "Published",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 5,
+    imageUrl: "https://picsum.photos/120/70?random=5",
     title: "React Development Bootcamp",
     startDate: "05 Sep 2024",
     endDate: "05 Dec 2024",
@@ -45,7 +50,8 @@ const PaginateTableData = [
     status: "Published",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 6,
+    imageUrl: "https://picsum.photos/120/70?random=6",
     title: "Machine Learning with Python",
     startDate: "15 Oct 2024",
     endDate: "15 Dec 2024",
@@ -54,7 +60,8 @@ const PaginateTableData = [
     status: "Unpublished",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 7,
+    imageUrl: "https://picsum.photos/120/70?random=7",
     title: "Advanced CSS Techniques",
     startDate: "01 Nov 2024",
     endDate: "30 Nov 2024",
@@ -63,7 +70,8 @@ const PaginateTableData = [
     status: "Published",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 8,
+    imageUrl: "https://picsum.photos/120/70?random=8",
     title: "Java Programming Fundamentals",
     startDate: "10 Sep 2024",
     endDate: "10 Oct 2024",
@@ -72,7 +80,8 @@ const PaginateTableData = [
     status: "Published",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 9,
+    imageUrl: "https://picsum.photos/120/70?random=9",
     title: "Web Development with HTML, CSS & JavaScript",
     startDate: "20 Aug 2024",
     endDate: "20 Oct 2024",
@@ -81,7 +90,8 @@ const PaginateTableData = [
     status: "Unpublished",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 10,
+    imageUrl: "https://picsum.photos/120/70?random=10",
     title: "Data Structures and Algorithms",
     startDate: "01 Sep 2024",
     endDate: "30 Sep 2024",
@@ -90,7 +100,8 @@ const PaginateTableData = [
     status: "Published",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 11,
+    imageUrl: "https://picsum.photos/120/70?random=11",
     title: "Full-Stack Development with MERN",
     startDate: "01 Dec 2024",
     endDate: "31 Dec 2024",
@@ -99,7 +110,8 @@ const PaginateTableData = [
     status: "Published",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 12,
+    imageUrl: "https://picsum.photos/120/70?random=12",
     title: "Introduction to Cybersecurity",
     startDate: "05 Oct 2024",
     endDate: "05 Nov 2024",
@@ -108,7 +120,8 @@ const PaginateTableData = [
     status: "Unpublished",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 13,
+    imageUrl: "https://picsum.photos/120/70?random=13",
     title: "Cloud Computing with AWS",
     startDate: "10 Nov 2024",
     endDate: "10 Dec 2024",
@@ -117,7 +130,8 @@ const PaginateTableData = [
     status: "Published",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 14,
+    imageUrl: "https://picsum.photos/120/70?random=14",
     title: "Mobile App Development with Flutter",
     startDate: "15 Dec 2024",
     endDate: "15 Jan 2025",
@@ -126,7 +140,8 @@ const PaginateTableData = [
     status: "Unpublished",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 15,
+    imageUrl: "https://picsum.photos/120/70?random=15",
     title: "Blockchain Development",
     startDate: "01 Feb 2025",
     endDate: "28 Feb 2025",
@@ -135,7 +150,8 @@ const PaginateTableData = [
     status: "Published",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 16,
+    imageUrl: "https://picsum.photos/120/70?random=16",
     title: "Artificial Intelligence Basics",
     startDate: "20 Jan 2025",
     endDate: "20 Feb 2025",
@@ -144,7 +160,8 @@ const PaginateTableData = [
     status: "Published",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 17,
+    imageUrl: "https://picsum.photos/120/70?random=17",
     title: "UX/UI Design Principles",
     startDate: "10 Mar 2025",
     endDate: "10 Apr 2025",
@@ -153,7 +170,8 @@ const PaginateTableData = [
     status: "Published",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 18,
+    imageUrl: "https://picsum.photos/120/70?random=18",
     title: "DevOps with Kubernetes",
     startDate: "01 Apr 2025",
     endDate: "01 May 2025",
@@ -162,7 +180,8 @@ const PaginateTableData = [
     status: "Unpublished",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 19,
+    imageUrl: "https://picsum.photos/120/70?random=19",
     title: "Big Data Analytics with Hadoop",
     startDate: "15 Mar 2025",
     endDate: "15 Apr 2025",
@@ -171,7 +190,8 @@ const PaginateTableData = [
     status: "Published",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 20,
+    imageUrl: "https://picsum.photos/120/70?random=20",
     title: "Introduction to Internet of Things",
     startDate: "20 May 2025",
     endDate: "20 Jun 2025",
@@ -180,7 +200,8 @@ const PaginateTableData = [
     status: "Unpublished",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 21,
+    imageUrl: "https://picsum.photos/120/70?random=21",
     title: "Deep Learning with TensorFlow",
     startDate: "01 Jun 2025",
     endDate: "01 Jul 2025",
@@ -189,7 +210,8 @@ const PaginateTableData = [
     status: "Published",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 22,
+    imageUrl: "https://picsum.photos/120/70?random=22",
     title: "Data Visualization with D3.js",
     startDate: "10 Jun 2025",
     endDate: "10 Jul 2025",
@@ -198,7 +220,8 @@ const PaginateTableData = [
     status: "Published",
   },
   {
-    imageUrl: "https://picsum.photos/",
+    id: 23,
+    imageUrl: "https://picsum.photos/120/70?random=23",
     title: "Game Development with Unity",
     startDate: "01 Jul 2025",
     endDate: "01 Aug 2025",

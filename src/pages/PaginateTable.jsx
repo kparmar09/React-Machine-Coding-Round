@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "../components/Container/Container";
 import Table from "../components/Paginate-Table-Components/Table";
 
 function PaginateTable() {
+  const [search, setSearch] = useState("");
+  const handleChange = (e) => {
+    setSearch(e.target.value);
+    console.log(search);
+  };
+
+  const handleClick = () => {};
+
   return (
     <>
       <Container
@@ -17,10 +25,20 @@ function PaginateTable() {
           Create learner's batch and share information at the same time.
         </p>
         <div className="mb-6">
-          <input className="border border-black mt-4" />
-          <button className="border border-black ml-2">Search</button>
+          <input
+            value={search}
+            placeholder="Search by Title (alt + k)"
+            className="border border-black mt-4 p-1"
+            onChange={(e) => handleChange(e)}
+          />
+          <button
+            className="border border-black ml-2 p-1"
+            onClick={handleClick}
+          >
+            Search
+          </button>
         </div>
-        <Table />
+        <Table search={search} />
       </Container>
     </>
   );
